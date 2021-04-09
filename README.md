@@ -4,6 +4,7 @@ This is the Java driver for Amazon Quantum Ledger Database (QLDB), which allows 
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/software.amazon.qldb/amazon-qldb-driver-java/badge.svg)](https://maven-badges.herokuapp.com/maven-central/software.amazon.qldb/amazon-qldb-driver-java)
 [![Javadoc](https://javadoc.io/badge2/software.amazon.qldb/amazon-qldb-driver-java/javadoc.svg)](https://javadoc.io/doc/software.amazon.qldb/amazon-qldb-driver-java)
+[![Java CI with Maven](https://github.com/awslabs/amazon-qldb-driver-java/actions/workflows/maven.yml/badge.svg)](https://github.com/awslabs/amazon-qldb-driver-java/actions/workflows/maven.yml)
 
 Version 1.x is still supported.
 
