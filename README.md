@@ -7,6 +7,7 @@ control over transactions to group multiple executions within a transaction.
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/software.amazon.qldb/amazon-qldb-driver-java/badge.svg)](https://maven-badges.herokuapp.com/maven-central/software.amazon.qldb/amazon-qldb-driver-java)
 [![Javadoc](https://javadoc.io/badge2/software.amazon.qldb/amazon-qldb-driver-java/javadoc.svg)](https://javadoc.io/doc/software.amazon.qldb/amazon-qldb-driver-java)
+[![Coverage Status](https://coveralls.io/repos/github/byronlin13/amazon-qldb-driver-java/badge.svg?branch=master)](https://coveralls.io/github/byronlin13/amazon-qldb-driver-java?branch=master)
 
 Version 1.x is still supported.
 

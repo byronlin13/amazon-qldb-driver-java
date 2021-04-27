@@ -70,6 +70,7 @@
         <ion.hash.version>1.0.0</ion.hash.version>
         <ion.version>1.8.0</ion.version>
         <jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
+        <coveralls.repoToken>placeholderToken</coveralls.repoToken>
         <jdkVersion>1.8</jdkVersion>
         <junit.jupiter.migration.support.version>5.0.0-M4</junit.jupiter.migration.support.version>
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
@@ -230,6 +231,14 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>4.3.0</version>
+                <configuration>
+                    <repoToken>${coveralls.repoToken}</repoToken>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
